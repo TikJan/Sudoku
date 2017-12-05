@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     m_wellcomeLabel->setText("Wellcome to");
     m_URLLabel->setOpenExternalLinks(true);
-    m_URLLabel->setText("<a href='https://github.com/Mikazakaryan/Sudoku' style=\"color: black;\">MSudoku</a>");
+    m_URLLabel->setText("<a href='https://github.com/TikJan/Sudoku' style=\"color: black;\">MSudoku</a>");
 
     m_wellcomeLayout->addWidget(m_wellcomeLabel);
     m_wellcomeLayout->addWidget(m_URLLabel);

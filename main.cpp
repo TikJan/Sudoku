@@ -1,3 +1,9 @@
+/*
+* This app has been created by T. Vardanyan
+* Created Date is 05.12.2017
+*/
+
+
 #include "mainwindow.h"
 #include <QApplication>
 
