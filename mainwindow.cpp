@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     m_wellcomeLabel->setText("Wellcome to");
     m_URLLabel->setOpenExternalLinks(true);
-    m_URLLabel->setText("<a href='https://github.com/TikJan/Sudoku' style=\"color: black;\">MSudoku</a>");
+    m_URLLabel->setText("<a href='https://github.com/TikJan/Sudoku' style=\"color: black;\">TikSudoku</a>");
 
     m_wellcomeLayout->addWidget(m_wellcomeLabel);
     m_wellcomeLayout->addWidget(m_URLLabel);
@@ -162,8 +162,9 @@ void MainWindow::aboutSlot(){
     m_wellcomeLabel->setText("");
     m_URLLabel->setOpenExternalLinks(false);
     m_URLLabel->setText("");
-    m_slotLabel->setText("I'm a Bachelor's degree student\n"
-                          "who want to get max point\n"
+    m_slotLabel->setText("Hi, I'm Tigran.\n"
+                          "I've made this project myself.\n"
+                          "And I want to get max point\n"
                           "for this work");
     m_font.setPointSize(25);
     m_slotLabel->setFont(m_font);
@@ -268,33 +269,33 @@ void MainWindow::itemChanged(QStandardItem* changedItem)
 
 MainWindow::~MainWindow()
 {
-    delete m_tableItems;
-    delete m_tableItemsModel;
-    delete m_header;
-    delete m_checkButton;
-    delete m_exit;
-    delete m_newGame;
-    delete m_boardGrid;
-    delete m_footer;
-
-    delete m_playSlotLayout;
-
-    delete m_play;
-    delete m_rules;
-    delete m_aboutMe;
-
-    delete m_playSlotLabel;
-    delete m_buttosLayout;
-
-    delete m_URLLabel;
-    delete m_wellcomeLabel;
-
-    delete m_wellcomeLayout;
-
-    delete m_menuLayout;
-    delete m_slotLabel;
-
-    delete m_allLayout;
-
-    delete m_window;
+    // delete m_tableItems;
+    // delete m_tableItemsModel;
+    // delete m_header;
+    // delete m_checkButton;
+    // delete m_exit;
+    // delete m_newGame;
+    // delete m_boardGrid;
+    // delete m_footer;
+    //
+    // delete m_playSlotLayout;
+    //
+    // delete m_play;
+    // delete m_rules;
+    // delete m_aboutMe;
+    //
+    // delete m_playSlotLabel;
+    // delete m_buttosLayout;
+    //
+    // delete m_URLLabel;
+    // delete m_wellcomeLabel;
+    //
+    // delete m_wellcomeLayout;
+    //
+    // delete m_menuLayout;
+    // delete m_slotLabel;
+    //
+    // delete m_allLayout;
+    //
+    // delete m_window;
 }
